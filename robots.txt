@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://galkom.ru/sitemap.xml
+Sitemap: http://galkom.ru/site_map.html

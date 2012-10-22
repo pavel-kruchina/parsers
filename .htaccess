@@ -1,0 +1,36 @@
+RewriteEngine on
+php_flag register_globals off
+
+php_value error_reporting 7
+
+RewriteRule ^.htaccess$ - [F]
+
+RewriteBase /
+RewriteRule ^css/ - [L] 
+RewriteRule ^parsers/ - [L] 
+RewriteRule ^images/ - [L] 
+RewriteRule ^fckeditor/ - [L] 
+RewriteRule ^ckeditor/ - [L] 
+RewriteRule ^newsletter/ - [L] 
+RewriteRule ^map_sait/ - [L] 
+RewriteRule ^getus.php - [L] 
+RewriteRule ^smtp_mail.php - [L] 
+RewriteRule ^market.php - [L] 
+RewriteRule ^files/ - [L]
+RewriteRule ^price/ - [L]
+RewriteRule ^java/ - [L] 
+RewriteRule ^map_creator.php - [L] 
+RewriteRule ^captcha.php - [L] 
+RewriteRule ^info.php - [L] 
+RewriteRule ^order.php - [L] 
+RewriteRule ^site_map.html - [L] 
+RewriteRule ^ajax.php - [L] 
+RewriteRule ^zapret.php - [L] 
+RewriteRule ^sinh.php - [L] 
+RewriteRule ^sitemap.xml - [L]   
+RewriteRule ^robots.txt - [L] 
+RewriteRule ^links621360.php - [L] 
+RewriteRule ^favicon.ico - [L] 
+RewriteRule ^trans.php - [L] 
+RewriteRule ^print.php -[L] 
+RewriteRule ^.* index.php
